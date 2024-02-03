@@ -1,9 +1,12 @@
 <template>
-  <Tutorial/>
+  <div>
+    <h1>page body</h1>
+    <!-- Содержимое главной страницы -->
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  layout: 'Default'
 }
 </script>
