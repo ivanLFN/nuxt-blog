@@ -15,9 +15,9 @@
               <span class="general-info-header">Phone:</span> 880 123 456 789
             </div>
           </div>
-          <div class="col-12 col-md-5">
+          <div class="col-12 col-md-5 mt-md-0 mt-4">
             <div class="d-flex justify-content-center text-center">
-              <div class="offset-2 col-4">
+              <div class="offset-md-2 col-4">
                 <div class="d-flex flex-column align-items-start">
                   <div class="footer-header">
                     Quick Link
@@ -109,7 +109,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-md-4 mt-md-0 mt-4">
             <div class="news-form px-5">
               <div class="text-center">
                 <div
@@ -155,7 +155,7 @@
         </div>
       </div>
       <div class="bottom-part pb-5">
-        <div class="row mt-5">
+        <div class="row mt-md-5 mt-3">
           <div class="d-flex flex-column flex-md-row align-items-center">
             <div class="col-12 col-md-4">
               <div class="">
@@ -169,17 +169,17 @@
                 <div>© JS Template 2024. All Rights Reserved.</div>
               </div>
             </div>
-            <div class="col-12 col-md-8 text-end">
+            <div class="col-12 col-md-8 text-md-end mt-md-0 mt-4">
               <a
-                class="footer-link px-3 bottom-link"
+                class="footer-link px-md-3 px-1  bottom-link"
                 href="#"
               >Terms of Use</a>
               <a
-                class="footer-link px-3 bottom-link"
+                class="footer-link px-md-3 px-1 bottom-link"
                 href="#"
               >Privacy Policy</a>
               <a
-                class="footer-link px-3"
+                class="footer-link px-md-3 px-1"
                 href="#"
               >Cookie Policy</a>
             </div>
@@ -210,6 +210,15 @@
   font-size: 1.2rem;
   font-weight: 300;
   padding-top: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .general-footer {
+    padding-top: 2rem;
+  }
+  .bottom-part {
+    margin-top: 2rem;
+  }
 }
 
 .general-info-header {
@@ -274,4 +283,5 @@ ul, ol {
   text-decoration: none;
   font-weight: 350;
 }
+
 </style>
