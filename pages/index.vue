@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>page body</h1>
-    <!-- Содержимое главной страницы -->
+    <h1>page body</h1> 
   </div>
 </template>
 

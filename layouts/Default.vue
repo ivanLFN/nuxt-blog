@@ -36,4 +36,10 @@ export default {
   bottom: 0;
   width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    position: relative;
+  }
+}
 </style>
