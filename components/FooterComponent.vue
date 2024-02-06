@@ -1,5 +1,5 @@
 <template>
-  <div class="general-footer pt-5">
+  <div class="general-footer">
     <div class="container">
       <div class="row footer">
         <div class="d-flex flex-column flex-md-row">
@@ -154,11 +154,52 @@
           </div>
         </div>
       </div>
+      <div class="bottom-part pb-5">
+        <div class="row mt-5">
+          <div class="d-flex flex-column flex-md-row align-items-center">
+            <div class="col-12 col-md-4">
+              <div class="">
+                <img
+                  src="https://img.icons8.com/color/96/bootstrap--v2.png"
+                  alt="logo"
+                >
+                <div style="font-weight: 500; font-size: 1.5rem;">
+                  Bootstrap
+                </div>
+                <div>© JS Template 2024. All Rights Reserved.</div>
+              </div>
+            </div>
+            <div class="col-12 col-md-8 text-end">
+              <a
+                class="footer-link px-3 bottom-link"
+                href="#"
+              >Terms of Use</a>
+              <a
+                class="footer-link px-3 bottom-link"
+                href="#"
+              >Privacy Policy</a>
+              <a
+                class="footer-link px-3"
+                href="#"
+              >Cookie Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
+
+.bottom-link {
+  border-right: 1px solid #DCDDDF;
+}
+
+.bottom-part {
+  border-top: 1px solid #DCDDDF;
+  margin-top: 5rem;
+}
 
 .footer-link {
   text-decoration: none;
@@ -168,6 +209,7 @@
   background-color: #F6F6F7;
   font-size: 1.2rem;
   font-weight: 300;
+  padding-top: 5rem;
 }
 
 .general-info-header {
