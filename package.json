@@ -10,7 +10,10 @@
     "lint": "eslint --fix --ext .js,.vue ."
   },
   "dependencies": {
+    "@nuxt/http": "^0.6.4",
     "core-js": "^3.25.3",
+    "markdown-it": "^14.0.0",
+    "markdown-it-front-matter": "^0.2.3",
     "nuxt": "^2.15.8",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
